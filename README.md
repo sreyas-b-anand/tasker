@@ -5,6 +5,8 @@ Features
 - Add new tasks
 - Delete tasks
 - View all tasks
+
+
 Requirements
 - Node.js
 - npm
@@ -36,3 +38,8 @@ USAGE
     -Click the "Delete" button next to the task you want to remove.   
 3 .Viewing All Tasks   
     -All tasks are listed on the main page.   
+
+LICENSE
+This project is licensed under the MIT License.
+
+
