@@ -25,6 +25,8 @@ RUNNING THE APP
   -npm start  
 2 .Open your browser  
   -Navigate to 'http://localhost:3000' to use the app.  
+
+  
 USAGE
 
 1 .Adding a Task   
