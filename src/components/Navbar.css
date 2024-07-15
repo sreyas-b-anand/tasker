@@ -1,0 +1,17 @@
+.navbar{
+    height: 5rem;
+    width: 100vw;
+}
+.nav{
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 5rem;
+    position: absolute;
+    right: 100px;
+}
+.navbar .header{
+    height: 5rem;
+    width: 8rem;
+}
