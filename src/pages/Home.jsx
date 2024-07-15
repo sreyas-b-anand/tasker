@@ -5,8 +5,9 @@ import useFetch from "../components/useFetch";
 import New from "../components/New";
 export const DisplayContext = React.createContext();
 const Home = () => {
-  const url = "http://localhost:8000/tasks";
-  let { tasks, error, loading } = useFetch(url);
+  const apiEndpoint = process.env.API_ENDPOINT;
+
+  let { tasks, error, loading } = useFetch(apiEndpoint);
 
   const handleClick = () => {
     dispatch({

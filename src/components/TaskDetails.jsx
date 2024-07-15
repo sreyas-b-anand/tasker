@@ -9,10 +9,10 @@ export const tasksContext = React.createContext({});
 function TaskDetails() {
   const navigate = useNavigate();
   const { id } = useParams();
-  let { tasks, loading, error } = useFetch("http://localhost:8000/tasks/" + id);
+  let { tasks, loading, error } = useFetch(process.env.API_ENDPOINT + "/" + id);
 
   const handleDelete = () => {
-    fetch("http://localhost:8000/tasks/" + id, {
+    fetch(process.env.API_ENDPOINT + "/" + id, {
       method: "DELETE",
     }).then(() => {
       navigate("/");
